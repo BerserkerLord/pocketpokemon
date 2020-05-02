@@ -1,0 +1,15 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<GridPane fx:controller="pocketpokemon.SelectUserController"
+          xmlns:fx="http://javafx.com/fxml" prefWidth="800" prefHeight="600" alignment="center" hgap="10" vgap="10">
+    <padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
+
+    <Button fx:id="coachButton" text="Coach" onAction="#changeScreenLoginCoach" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <Button fx:id="invastigatorButton" text="Investigator" onAction="#changeScreenLoginInvestigator" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <Button fx:id="visitorButton" text="Visitor" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <Label text="Join us uwu" GridPane.columnIndex="6" GridPane.rowIndex="5"/>
+    <Button text="Sign in " GridPane.columnIndex="7" GridPane.rowIndex="5"/>
+</GridPane>
+
